@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-bank {
+  width: 600px;
+  margin: 0px auto;
+}
+
+.form-bank__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-bank__input {
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.form-bank__input input {
+  height: 50px;
+  width: 100%;
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.form-bank__input input:focus {
+  border: 1px solid #5dad72;
+}
+
+.form-bank__input label {
+  position: absolute;
+  top: -9px;
+  left: 20px;
+  padding: 0px 10px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-bank .form-bank__auth button {
+  display: block;
+  border: 1px solid white;
+  background-color: #f1b45b;
+  color: #333;
+  padding: 13px 30px;
+  font-size: 13px;
+  margin: 10px auto;
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+
+.form-bank .form-bank__auth button:hover {
+  background-color: white;
+  color: #f1b45b;
+  border: 1px solid #f1b45b;
+  cursor: pointer;
+}
+/*# sourceMappingURL=form.css.map */
